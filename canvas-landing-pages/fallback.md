@@ -1,27 +1,19 @@
 <!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Automating Tasks with Python</span>
 </h1>
 
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+## About
+
+In this lecture, we'll explore advanced techniques and libraries that will take your automation skills to the next level. We'll learn about the power of APIs, web scraping with Selenium, automated data analysis and visualization, and machine learning workflows. By the end of this lecture, you'll have a comprehensive understanding of how Python can be used to automate tasks across various domains, saving you time and effort in your projects and workflows.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](../concepts/README.md)                    | -- | tktk Skills covered.                |
-| [tktk Microlesson Name](../microlesson-01/README.md) | -- | tktk Skills covered.                |
-| **Total content**                                    | -- |                                     |
-
-## Level Up content
-
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [tktk Microlesson Name](../microlesson-02/README.md) | -- | tktk Skills covered. |
-| **Total Level Up content**                           | -- |                      |
-
-## References
-
-📖 [Reference Materials](../references/README.md)
+| [Automating with APIs](../automating-with-apis/README.md) | 30 min | Understand APIs and how they help with automation. |
+| [Web Scraping with Selenium](../web-scraping-with-selenium/README.md) | 30 min | Use Selenium for web scraping and interacting with dynamic web pages. |
+| [Data Analysis and Visualization](../data-analysis-and-visualization/README.md) | 30 min | Automating report analysis and adding visualization. |
+| [Exploring Automation Opportunities](../exploring-automation-opportunities/README.md) | 15 min | Additional automation opportunities and how to spot them. |
+| **Total content**                                   | 105 min | |
