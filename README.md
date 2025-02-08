@@ -1,56 +1,35 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Automating Tasks with Python</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this lecture, we'll explore advanced techniques and libraries that will take your automation skills to the next level. We'll learn about the power of APIs, web scraping with Selenium, automated data analysis and visualization, and machine learning workflows. By the end of this lecture, you'll have a comprehensive understanding of how Python can be used to automate tasks across various domains, saving you time and effort in your projects and workflows.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
-
-## References
-
-📖 [Reference Materials](./references/README.md)
+| [Automating with APIs](./automating-with-apis/README.md) | 30 min | Understand APIs and how they help with automation. |
+| [Web Scraping with Selenium](./web-scraping-with-selenium/README.md) | 30 min | Use Selenium for web scraping and interacting with dynamic web pages. |
+| [Data Analysis and Visualization](./data-analysis-and-visualization/README.md) | 30 min | Automating report analysis and adding visualization. |
+| [Exploring Automation Opportunities](./exploring-automation-opportunities/README.md) | 15 min | Additional automation opportunities and how to spot them. |
+| **Total content**                                   | 105 min |                                     |
 
 ## Internal
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- [Intro to Python](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python/canvas-landing-pages/itb.html)
+- [Intro to Python Lab](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python-lab/canvas-landing-pages/itb.html)
+- [Intermediate Python](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intermediate-python/canvas-landing-pages/itb.html)
+- [Intermediate Python Lab](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intermediate-python-lab/canvas-landing-pages/itb.html)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/automating-tasks-with-python/canvas-landing-pages/itb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/automating-tasks-with-python/canvas-landing-pages/fallback.html)
 
 ### Resources
 

@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Automating Tasks with Python</span>
   <span class="subhead">References</span>
 </h1>
 
