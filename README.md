@@ -21,10 +21,10 @@ In this lecture, we'll explore advanced techniques and libraries that will take 
 
 ### Prerequisites
 
-- Intro to Python
-- Intro to Python Lab
-- Intermediate Python
-- Intermediate Python Lab
+- [Intro to Python](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python/canvas-landing-pages/itb.html)
+- [Intro to Python Lab](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python-lab/canvas-landing-pages/itb.html)
+- [Intermediate Python](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intermediate-python/canvas-landing-pages/itb.html)
+- [Intermediate Python Lab](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intermediate-python-lab/canvas-landing-pages/itb.html)
 
 ### Course landing pages
 
