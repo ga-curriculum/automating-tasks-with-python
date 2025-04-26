@@ -3,19 +3,27 @@
   <span class="subhead">Exploring Automation Opportunities</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to apply python automation concepts to different problems.
+**Learning objective:** By the end of this lesson, students will be able to apply Python automation concepts to different problems.
 
-You've already seen how Python can be a helpful tool for automating tasks related to APIs, web scraping, and data analysis. But the possibilities don't stop there! Python's versatility makes it an ideal language for automating a wide range of tasks across various domains.
+## Identifying processes that can be automated
 
-Let's explore a few more exciting areas where Python can be leveraged for automation. These examples will help spark your creativity and get you thinking about how you can apply Python to streamline your own workflows and projects.
+Automation is all about finding repetitive tasks that can be streamlined to save time and effort. In this section, we'll explore various areas where Python can be used to automate tasks, making your life easier and more efficient.
 
-# Automating Image Manipulation
+You've already seen how Python can be a helpful tool for automating tasks related to APIs, web scraping, and data analysis. But the possibilities don't stop there!
 
-Picture this: you have a collection of images that need to be resized, converted to a different format, or have a watermark applied. Doing this manually for each image would be a tedious and time-consuming task. But fear not! Python comes to the rescue with the powerful Pillow library, making image manipulation a breeze.
+Python's versatility makes it an ideal language for automating multiple categories of tasks across various domains.
+
+Let's explore a few more exciting areas where Python can be leveraged for automation. These examples will help spark your creativity and get you thinking about how you can apply Python to streamline your workflows and projects.
+
+## Automating image manipulation
+
+Picture this: you have a collection of images that need to be resized, converted to a different format, or have a watermark applied.
+
+Doing this manually for each image would be a tedious and time-consuming task. But fear not! Python comes to the rescue with the powerful [Pillow](https://pillow.readthedocs.io/en/stable/index.html) library, making image manipulation a breeze.
 
 Let's say you need to create thumbnails for a large set of images. Here's how Python can automate the process:
 
-``` python
+```python
 from PIL import Image
 import os
 
@@ -40,17 +48,21 @@ thumbnail_size = (128, 128)
 create_thumbnails(source_directory, output_directory, thumbnail_size)
 ```
 
-In this code, we use the Pillow library (imported as `PIL`) to handle image operations. The `create_thumbnails` function takes the source directory, output directory, and desired thumbnail size as parameters. It iterates over the image files in the source directory, opens each image using `Image.open()`, resizes it using the `thumbnail()` method, and saves the resized image to the output directory with a "thumb_" prefix.
+In this code, we use the Pillow library (imported as `PIL`) to handle image operations. The `create_thumbnails` function takes the source directory, output directory, and desired thumbnail size as parameters.
 
-Imagine the time saved by automating this process, especially when dealing with hundreds or thousands of images! Python's Pillow library provides a wide range of image manipulation capabilities, such as cropping, rotating, applying filters, and more. By harnessing these functionalities, you can automate complex image workflows efficiently.
+It iterates over the image files in the source directory, opens each image using `Image.open()`, resizes it using the `thumbnail()` method, and saves the resized image to the output directory with a "thumb_" prefix.
 
-# Automating Email Notifications
+Imagine the time saved by automating this process, especially when dealing with hundreds or thousands of images!
 
-Sending automated email notifications is another useful application of Python. Whether you want to send alerts, reports, or updates, Python's `smtplib` library makes it easy to automate email communication.
+Python's Pillow library provides various image manipulation capabilities, such as cropping, rotating, applying filters, and more. By harnessing these functionalities, you can automate complex image workflows efficiently.
+
+## Automating email notifications
+
+Sending automated email notifications is another practical application of Python. Whether you want to send alerts, reports, or updates, Python's [`smtplib`](https://docs.python.org/3/library/smtplib.html) library makes it easy to automate email communication.
 
 Here's a simple example of how you can send an email notification using Python:
 
-``` python
+```python
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -82,12 +94,16 @@ recipients = ["recipient1@example.com", "recipient2@example.com"]
 send_email(subject, body, sender, recipients)
 ```
 
-In this example, we define a function called `send_email` that takes the email subject, body, sender, and recipients as parameters. It uses the `MIMEMultipart` and `MIMEText` classes from the email module to construct the email message. The `smtplib` library is then used to establish a connection with an SMTP server, authenticate with the provided credentials, and send the email.
+In this example, we define a function called `send_email` that takes the email subject, body, sender, and recipients as parameters. It uses the `MIMEMultipart` and `MIMEText` classes from the email module to construct the email message.
 
-By automating email notifications, you can keep yourself or others informed about important events, send scheduled updates, or trigger alerts based on specific conditions.
+The `smtplib` library is then used to connect with an SMTP server, authenticate with the provided credentials, and send the email.
 
-# Future Automation Opportunities
+By automating email notifications, you can informed yourself and others about important events, send scheduled updates, or trigger alerts based on specific conditions.
+
+## Future automation opportunities
 
 These are just a few examples of the many tasks you can automate using Python. The possibilities are endless, and Python's library ecosystem provides tools for automating tasks in various domains, such as system administration, network management, GUI automation, and more.
 
-As you continue your Python automation journey, keep an eye out for repetitive tasks in your daily workflow or projects. Chances are, there's a way to automate them using Python! Don't be afraid to explore new libraries, experiment with different approaches, and leverage the power of automation to save time and effort.
+As you continue your Python automation journey, watch for repetitive tasks in your daily workflow or projects. Chances are, there's a way to automate them using Python!
+
+Don't be afraid to explore new libraries, experiment with different approaches, and leverage the power of automation to save time and effort.

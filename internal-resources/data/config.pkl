@@ -21,7 +21,7 @@ repo {
 courses {
   new {
     // Do not remove this fallback course!
-    name = "fallback"
+    name = "itb"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.automatingWithApis
@@ -30,9 +30,9 @@ courses {
       mls.exploringAutomationOpportunities
     }
   }
-    new {
+  new {
     // Do not remove this fallback course!
-    name = "itb"
+    name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.automatingWithApis
