@@ -3,7 +3,7 @@
   <span class="subhead">Automating with APIs</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will understand APIs and how they can be leveraged for automation.
+**Learning objective:** By the end of this lesson, students will be able to articulate what APIs are and how they can be leveraged for automation.
 
 ## Introduction to APIs
 
